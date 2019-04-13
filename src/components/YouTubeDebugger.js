@@ -1,4 +1,6 @@
 // Code YouTubeDebugger Component Here
+import React from 'react';
+
 export default class YouTubeDebuggerr extends React.Component {
  
  constructor() {
@@ -28,7 +30,8 @@ export default class YouTubeDebuggerr extends React.Component {
  
   render() {
     return (
-      <button onClick={this.handleButton}>Click me!</button>
+      <button onClick={this.handleBitrate}>Bitrate</button>
+      <button onClick={this.handleResolution}>Bitrate</button>
     );
   }
 }
