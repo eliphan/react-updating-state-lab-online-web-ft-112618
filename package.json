@@ -16,10 +16,12 @@
     "mocha": "^5.2.0",
     "react-scripts": "^2.1.8",
     "react-test-renderer": "^16.8.6",
-    "webpack": "^4.29.6",
+    "webpack": "^4.30.0",
     "webpack-dev-server": "^3.3.1"
   },
   "dependencies": {
+    "acorn": "^6.1.1",
+    "ajv": "^6.10.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.2",
     "babel-preset-airbnb": "^2.5.2",
@@ -33,7 +35,8 @@
     "mocha-multi": "^1.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "sinon": "^7.3.1"
+    "sinon": "^7.3.1",
+    "typescript": "^3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
